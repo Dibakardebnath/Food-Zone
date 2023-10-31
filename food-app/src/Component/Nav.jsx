@@ -8,7 +8,7 @@ import './Nav.css'
 
 
 export const Nav=()=>{
-    return <Box className='navbar'>
+    return <Box className='navbar' >
 
      <Box className='navPart1'>
        
@@ -34,7 +34,7 @@ export const Nav=()=>{
      </Box>
 
      <Box className='navPart2'>
-      <Button className='cart' colorScheme='white'><Icon color={'#f29f05'} as={DeleteIcon}/></Button>
+      <Button className='cart' colorScheme='white'><i style={{color:"#f29f05",}} class="fa-solid fa-bag-shopping"></i></Button>
       <Button bg={'#f29f05'} borderRadius={'10px'} color={'white'}>ORDER NOW</Button>
      </Box>
 

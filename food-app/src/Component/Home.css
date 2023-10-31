@@ -1,0 +1,31 @@
+
+/* firstBox */
+
+.firstBox{
+    /* border: 1px solid; */
+    width: 90%;
+    margin: auto;
+    display: flex;
+    
+}
+.heading{
+    /* border: 1px solid; */
+    margin-top: 5%;
+    text-align: left;
+}
+.selectorBox{
+    /* border: 1px solid; */
+    width: 95%;
+    height: 8vh;
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.selButton{
+    border: 1px solid;
+
+     border-Radius: 5px;
+     color:white;
+}

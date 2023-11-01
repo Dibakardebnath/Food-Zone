@@ -70,7 +70,123 @@ export const Home=()=>{
   </Box>
 
 </Box>
+
+<Box className='fourthBox1' >
+
+  <Box className='fourthBox' >
+  <Box  data-aos="flip-left"  data-aos-duration="1000" className='four1'>
+  <Heading mt={'5px'} as='h1' size='2xl'>12 Best</Heading>
+  <Heading mt={'5px'} as='h1' size='2xl'>Restaurants in</Heading>
+  <Heading mt={'5px'} as='h1' size='2xl'>Your City</Heading>
+  <Text className='fourText' color={'gray'}>Magna sit amet purus gravida quis blandit turpis cursus. Venenatis tellus in metus vulputate.</Text>
+</Box>
+
+<Box  data-aos="flip-left"  data-aos-duration="1000" className='four2'>
+<Box className='fourImage'>
+  <Image borderRadius={'5px'} src='https://quickeat-react.vercel.app/assets/img/logos-2.jpg'></Image>
+</Box >
+<Box className='fourRight'>
+  <Heading size='lg'>Kennington Lane Cafe</Heading>
+  <i style={{color:"#f29f05"}} class="fa-solid fa-star"></i>
+   <i style={{color:"#f29f05"}}class="fa-solid fa-star"></i> 
+   <i style={{color:"#f29f05"}}class="fa-solid fa-star"></i>
+    <i style={{color:"#f29f05"}}class="fa-solid fa-star"></i>
+    <i class="fa-regular fa-star"></i>
+     <Box className='buttonBox'>
+     <Button colorScheme='white'>amerecan</Button>
+  <Button colorScheme='white'>steakhouse</Button>
+  <Button colorScheme='white'>seafood</Button>
+     </Box>
  
+  <Text className='fourRightText' color={'gray'}>Non enim praesent elementum facilisis leo vel fringilla.
+     Lectus proin nibh nisl condimentum id. Quis varius quam quisque id diam vel.</Text>
+</Box>
+</Box>
+
+
+<Box  data-aos="flip-left"  data-aos-duration="1000" className='four2'>
+<Box className='fourImage'>
+  <Image borderRadius={'5px'} src='https://quickeat-react.vercel.app/assets/img/logos-2.jpg'></Image>
+</Box >
+<Box className='fourRight'>
+  <Heading size='lg'>Kennington Lane Cafe</Heading>
+  <i style={{color:"#f29f05"}} class="fa-solid fa-star"></i>
+   <i style={{color:"#f29f05"}}class="fa-solid fa-star"></i> 
+   <i style={{color:"#f29f05"}}class="fa-solid fa-star"></i>
+    <i style={{color:"#f29f05"}}class="fa-solid fa-star"></i>
+    <i class="fa-regular fa-star"></i>
+     <Box className='buttonBox'>
+     <Button colorScheme='white'>amerecan</Button>
+  <Button colorScheme='white'>steakhouse</Button>
+  <Button colorScheme='white'>seafood</Button>
+     </Box>
+ 
+  <Text className='fourRightText' color={'gray'}>Non enim praesent elementum facilisis leo vel fringilla.
+     Lectus proin nibh nisl condimentum id. Quis varius quam quisque id diam vel.</Text>
+</Box>
+</Box>
+
+<Box  data-aos="flip-left"  data-aos-duration="1000" className='four3'>
+<Box className='fourImage'>
+  <Image borderRadius={'5px'} src='https://quickeat-react.vercel.app/assets/img/logos-2.jpg'></Image>
+</Box >
+<Box className='fourRight'>
+  <Heading size='lg'>Kennington Lane Cafe</Heading>
+  <i style={{color:"#f29f05"}} class="fa-solid fa-star"></i>
+   <i style={{color:"#f29f05"}}class="fa-solid fa-star"></i> 
+   <i style={{color:"#f29f05"}}class="fa-solid fa-star"></i>
+    <i style={{color:"#f29f05"}}class="fa-solid fa-star"></i>
+    <i class="fa-regular fa-star"></i>
+     <Box className='buttonBox'>
+     <Button colorScheme='white'>amerecan</Button>
+  <Button colorScheme='white'>steakhouse</Button>
+  <Button colorScheme='white'>seafood</Button>
+     </Box>
+ 
+  <Text className='fourRightText' color={'gray'}>Non enim praesent elementum facilisis leo vel fringilla.
+     Lectus proin nibh nisl condimentum id. Quis varius quam quisque id diam vel.</Text>
+</Box>
+</Box>
+
+
+  </Box>
+
+
+  <Button borderRadius={'10px'} color={'#f29f05'} colorScheme='white' className='seeBtn'>SEE ALL<i style={{marginLeft:"7px"}} class="fa-solid fa-arrow-right"></i></Button>
+
+
+
+</Box>
+
+
+<Box className='fifthBox'>
+
+  <Box className='fifth1'>
+  <Box>
+    <Image src='https://quickeat-react.vercel.app/assets/img/photo-3.png'></Image>
+  </Box>
+  <Box>
+<Heading>Food from your</Heading>
+<Heading>favorite restaurants</Heading>
+<Heading>to your table</Heading>
+
+<Text>Pretium lectus quam id leo in vitae turpis massa sed. 
+  Lorem donec massa sapien faucibus et molestie. Vitae elementum curabitur vitae nunc.</Text>
+<Button>ORDER NOW</Button>
+  </Box>
+
+
+  </Box>
+
+
+  <Box className='fifth2'></Box>
+
+
+  <Box className='fifth3'></Box>
+
+
+</Box>
+
     
 
     </Box>

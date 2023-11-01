@@ -70,3 +70,121 @@
     color: rgb(189, 184, 184);
 
   }
+
+  /* ........................fourthBox */
+.fourthBox1{
+  /* border: 1px solid; */
+  background-color: #fcfcfc;
+  padding: 50px 50px;
+  margin-top: 7%;
+}
+  .fourthBox{
+    /* border: 1px solid; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    margin-top: 3%;
+   
+  }
+  .four1{
+    /* border: 1px solid;/ */
+    text-align: left;
+   margin-top: 4%;
+  }
+ 
+  .fourText{
+    /* border: 1px solid; */
+    width: 60%;
+    margin-top: 2%;
+  }
+  .four2{
+    /* border: 1px solid; */
+    display: flex;
+    gap: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    width: 90%;
+    padding: 30px 0px 30px 40px;
+    background-color:rgb(255,255,255);
+    border-radius: 10px;
+   
+  }
+  .fourRight{
+    /* border: 1px solid; */
+    width: 80%;
+    text-align: left;
+  }
+  .fourImage{
+    /* border: 1px solid; */
+    margin-top: 1%;
+    
+  }
+  .fourRightText{
+    /* border: 1px solid; */
+    width: 80%;
+    margin-top: 2%;
+  }
+  .buttonBox{
+    /* border: 1px solid; */
+    display: flex;
+    gap: 5px;
+    margin-top: 3%;
+  }
+
+  .buttonBox Button{
+    border: 1px solid;
+    color: #f29f05;
+    height: 5vh;
+    border-radius: 10px;
+    
+  }
+  .four3{
+    /* border: 1px solid; */
+    display: flex;
+    gap: 20px;
+    width: 90%;
+    padding: 30px 0px 30px 40px;
+  }
+  .seeBtn {
+    margin-top: 5%;
+    border: 2px solid currentColor;
+    padding: 25px;
+    color: #f29f05;
+    font-family: roboto;
+    font-weight: 100;
+    overflow: hidden;
+    /* padding: 1rem 2rem; Note: You're redefining padding, which might override the previous setting */
+    position: relative;
+    text-decoration: none;
+    transition: 0.2s transform ease-in-out; /* Added missing semicolon */
+    will-change: transform;
+    z-index: 0;
+  
+    &::after {
+      background-color: #f29f05; /* Added colon */
+      /* border-radius: 3rem; */
+      content: '';
+      display: block;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      transform: translate(-100%, 0) rotate(10deg); /* Added colon */
+      transform-origin: top left;
+      transition: 0.2s transform ease-out;
+      will-change: transform;
+      z-index: -1;
+    }
+  
+    &:hover::after {
+      transform: translate(0, 0); /* Added colon */
+    }
+  
+    &:hover {
+      border: 2px solid transparent; /* Added missing colon */
+      color: white;
+      transform: scale(1.05);
+      will-change: transform;
+    }
+  }
+  

@@ -160,8 +160,7 @@
     z-index: 0;
   
     &::after {
-      background-color: #f29f05; /* Added colon */
-      /* border-radius: 3rem; */
+      background-color: #f29f05; 
       content: '';
       display: block;
       height: 100%;
@@ -169,7 +168,7 @@
       position: absolute;
       left: 0;
       top: 0;
-      transform: translate(-100%, 0) rotate(10deg); /* Added colon */
+      transform: translate(-100%, 0) rotate(10deg); 
       transform-origin: top left;
       transition: 0.2s transform ease-out;
       will-change: transform;
@@ -181,10 +180,12 @@
     }
   
     &:hover {
-      border: 2px solid transparent; /* Added missing colon */
+      border: 2px solid transparent; 
       color: white;
       transform: scale(1.05);
       will-change: transform;
     }
   }
+  
+
   

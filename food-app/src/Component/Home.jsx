@@ -236,17 +236,24 @@ export const Home=()=>{
   <Heading>Want to Join Partnership</Heading>
 </Box>
 
-<Box>
+<Box className='seventhBox2'>
 
   <Box className='container'>
-    <Image  src='https://www.velents.com/wp-content/uploads/2023/07/633f2be19afb07633550bc82_BikeCourier_2-job-description.jpeg'></Image>
+    <Image width={'30%'}  src='https://www.velents.com/wp-content/uploads/2023/07/633f2be19afb07633550bc82_BikeCourier_2-job-description.jpeg'></Image>
     <Box>
-      <Heading>Join Courier</Heading>
+      <Heading  className='Heading-left'>Join Courier</Heading>
       <Button className='bottom-left'>LEARN MORE</Button>
     </Box>
   </Box>
 
- <Box></Box>
+
+  <Box className='container'>
+    <Image width={'30%'}  src='https://www.velents.com/wp-content/uploads/2023/07/633f2be19afb07633550bc82_BikeCourier_2-job-description.jpeg'></Image>
+    <Box>
+      <Heading  className='Heading-left'>Join Courier</Heading>
+      <Button className='bottom-left'>LEARN MORE</Button>
+    </Box>
+  </Box>
 
 </Box>
 </Box>

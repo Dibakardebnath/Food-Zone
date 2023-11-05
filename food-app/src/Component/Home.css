@@ -299,14 +299,48 @@
 
 
   /* ..........................................seventHBox */
-
+  .seventhBox{
+    background-color: rgb(54,54,54);
+    color: #fcfcfc;
+  }
   .container{
+    /* border: 10px solid red; */
     position: relative;
     text-align: center;
     color: white;
+   
   }
   .bottom-left {
     position: absolute;
     bottom: 8px;
-    left: 16px;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f29f05;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .Heading-left{
+    position: absolute;
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    /* background-color: rgb(186, 219, 0); */
+    color: white;
+    font-size: 35px;
+    border: none;
+    cursor: pointer;
+ 
+  }
+  .seventhBox2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
   }

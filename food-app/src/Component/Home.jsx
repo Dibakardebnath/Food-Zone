@@ -162,31 +162,94 @@ export const Home=()=>{
 <Box className='fifthBox'>
 
   <Box className='fifth1'>
-  <Box>
+  <Box className='fifthOmg'>
     <Image src='https://quickeat-react.vercel.app/assets/img/photo-3.png'></Image>
   </Box>
-  <Box>
-<Heading>Food from your</Heading>
-<Heading>favorite restaurants</Heading>
-<Heading>to your table</Heading>
+  <Box className='fifthOmg2'>
+<Heading size={'2xl'}>Food from your</Heading>
+<Heading size={'2xl'}>favorite restaurants</Heading>
+<Heading size={'2xl'}>to your table</Heading>
 
-<Text>Pretium lectus quam id leo in vitae turpis massa sed. 
+<Text className='fifthOmgText'>Pretium lectus quam id leo in vitae turpis massa sed. 
   Lorem donec massa sapien faucibus et molestie. Vitae elementum curabitur vitae nunc.</Text>
-<Button>ORDER NOW</Button>
+<Button mt={'4%'} className='seeBtn'>ORDER NOW</Button>
   </Box>
 
 
   </Box>
 
 
-  <Box className='fifth2'></Box>
-
-
-  <Box className='fifth3'></Box>
-
+  <Box className='fifth2'>
+    <Box className='fifth2Head'>
+      <Heading>Service shows good taste.</Heading>
+    </Box>
+    <Box className='fifth2Box'>
+      <Heading color='#f4b030'>976</Heading>
+      <Text className='fifthText'>Satisfied Customer</Text>
+    </Box>
+    <Box className='fifth2Box'>
+    <Heading color='#f4b030'>12</Heading>
+      <Text className='fifthText'>Best Restaurants</Text>
+    </Box>
+    <Box className='fifth2Box'>
+    <Heading color='#f4b030'>1K+</Heading>
+      <Text className='fifthText'>Food Delivered</Text>
+    </Box>
+  </Box>
 
 </Box>
 
+<Box className='sixBox'>
+
+<Box className='sixBox1'>
+  <Heading size={'2xl'}>What customers</Heading>
+  <Heading size={'2xl'}>say about us</Heading>
+  <Box className='sixBox2'>
+    <Text className='sixText'>In literary theory, a text is any object that can be "read", whether this object is a work of literature, a street sign, an arrangement of buildings on a city block, or styles of clothing.
+      kind of informative message.</Text>
+        <Box className='sixSecondBox'>
+          <Image width={'10%'} src='https://freepngimg.com/static/img/cat/emoji.png'></Image>
+          <Box>
+            <Text>Dibakar Debnath</Text>
+             <i style={{color:"#f29f05"}} class="fa-solid fa-star"></i>
+             <i style={{color:"#f29f05"}}class="fa-solid fa-star"></i> 
+             <i style={{color:"#f29f05"}}class="fa-solid fa-star"></i>
+             <i style={{color:"#f29f05"}}class="fa-solid fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+          </Box>
+        </Box>
+  </Box>
+  <Box className='sixThirdBox'>
+    <Button><i class="fa-solid fa-arrow-right fa-rotate-180"></i></Button>
+    <Button><i class="fa-solid fa-arrow-right"></i></Button>
+  </Box>
+</Box>
+<Box className='sixImg'>
+  <Image src='https://quickeat-react.vercel.app/assets/img/photo-4.png'></Image>
+</Box>
+
+</Box>
+
+<Box className='seventhBox'>
+
+<Box>
+  <Heading>Want to Join Partnership</Heading>
+</Box>
+
+<Box>
+
+  <Box className='container'>
+    <Image  src='https://www.velents.com/wp-content/uploads/2023/07/633f2be19afb07633550bc82_BikeCourier_2-job-description.jpeg'></Image>
+    <Box>
+      <Heading>Join Courier</Heading>
+      <Button className='bottom-left'>LEARN MORE</Button>
+    </Box>
+  </Box>
+
+ <Box></Box>
+
+</Box>
+</Box>
     
 
     </Box>

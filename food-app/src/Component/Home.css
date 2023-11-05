@@ -188,4 +188,125 @@
   }
   
 
-  
+  /* ..............................fifthBox Start */
+  .fifthBox{
+    /* border: 1px solid red; */
+    /* width: 90%; */
+    margin: auto;
+    padding: 50px 50px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    background: linear-gradient(135deg,#ffeaea, rgb(255,255,255),#ffeaea, rgb(255,255,255));
+  }
+  .fifth1{
+    /* border: 1px solid; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 0px 0px 0px 50px;
+    
+  }
+  .fifthOmg{
+    /* border: 1px solid; */
+    width: 70%;
+  }
+  .fifthOmgText.fifthOmg2{
+    /* border: 1px solid; */
+    text-align: left;
+    width: 80%;
+    margin-top: 8%;
+  }
+  .fifthOmgText{
+    /* border: 1px solid; */
+    margin-top: 4%;
+    width: 80%;
+  }
+  .fifthOmgText Button{
+    border: 1px solid;
+  }
+  .fifth2{
+    /* border: 1px solid; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 5%;
+    gap: 20px;
+    padding: 10px;
+   
+  }
+  .fifth2Head{
+    /* border: 1px solid; */
+    padding: 10px ;
+  }
+  .fifth2Box{
+    /* border: 1px solid; */
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    padding: 10%;
+    border-radius: 10px;
+    background-color: #fcfcfc;
+  }
+  .fifthText{
+    color: gray;
+    font-size: 20px;
+  }
+
+  /* ..........................SixBOx */
+  .sixBox{
+    /* border: 1px solid; */
+    display: flex;
+    padding: 50px 0px 0px 80px;
+    gap: 5%;
+  }
+  .sixBox1{
+    /* border: 1px solid; */
+    width: 40%;
+    text-align: left;
+    padding-top: 5%;
+  }
+  .sixImg{
+    /* border: 1px solid; */
+    width: 50%;
+  }
+  .sixText{
+    /* border: 1px solid; */
+    color: gray;
+    font-size: 20px;
+  }
+  .sixBox2{
+    /* border: 1px solid; */
+    margin-top: 4%;
+  }
+  .sixSecondBox{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: last baseline;
+    align-items: center;
+    margin-top: 5%;
+    gap: 20px;
+  }
+  .sixThirdBox{
+    /* border: 1px solid; */
+    margin-top: 5%;
+    width: max-content;
+    display: flex;
+    gap: 10px;
+
+  }
+  .sixThirdBox Button{
+    border-radius: 50%;
+    background-color: #fcfcfc;
+    border: 1px solid;
+  }
+
+
+  /* ..........................................seventHBox */
+
+  .container{
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }

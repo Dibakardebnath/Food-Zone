@@ -300,47 +300,65 @@
 
   /* ..........................................seventHBox */
   .seventhBox{
+    border: 1px solid;
     background-color: rgb(54,54,54);
     color: #fcfcfc;
+    /* height: 100vh; */
+   
+
   }
   .container{
-    /* border: 10px solid red; */
-    position: relative;
-    text-align: center;
-    color: white;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  
    
   }
+  /*  */
   .bottom-left {
-    position: absolute;
-    bottom: 8px;
-    position: absolute;
-    top: 70%;
-    left: 10%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    position: relative;
+    top: -100px;
+    left: 25%;
+    /* transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); */
     background-color: #f29f05;
     color: white;
-    font-size: 16px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
+    font-size: 20px;
+  
   }
   .Heading-left{
-    position: absolute;
-    position: absolute;
-    top: 50%;
-    left: 12%;
+    position: relative;
+    top: -100px;
+    left: 75%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    /* background-color: rgb(186, 219, 0); */
     color: white;
     font-size: 35px;
-    border: none;
-    cursor: pointer;
+ 
  
   }
   .seventhBox2{
+    /* border: 1px solid blue; */
+    margin-top: 5%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    padding: 10px 50px;
   }
+  .ImgOverBox{
+    /* border: 1px solid red; */
+    /* width: 100px; */
+      /* width: 00px; */
+      /* position: relative;
+      top: 30px;
+      right: 200px; */
+      /* left: 40px; */
+  }
+.sevenBoxHead{
+  border: 5px solid green;
+  /* padding: 50px ; */
+  width: max-content;
+  margin: 80px auto;
+}

@@ -233,7 +233,7 @@ export const Home=()=>{
 <Box className='seventhBox'>
 
 <Box className='sevenBoxHead'>
-  <Heading>Want to Join Partnership</Heading>
+  <Heading size={'2xl'}>Want to Join Partnership</Heading>
 </Box>
 
 <Box className='seventhBox2'>
@@ -245,6 +245,7 @@ export const Home=()=>{
       <Heading  className='Heading-left'>Join Courier</Heading>
       <Button colorScheme='#f29f05' className='bottom-left'>LEARN MORE</Button>
     </Box>
+    <Box className='borderBox'></Box>
   </Box>
 
 
@@ -258,6 +259,65 @@ export const Home=()=>{
   </Box>
 
 </Box>
+</Box>
+
+<Box className='eightBox'>
+
+<Box className='eightBox2'>
+<Heading size={'2xl'}>Latest news and</Heading>
+<Heading  size={'2xl'}>events</Heading>
+</Box>
+
+<Box className='eightBox3'>
+
+  <Box className='eightBox31'>
+    <Image borderRadius={'10px'} src='https://quickeat-react.vercel.app/assets/img/photo-8.jpg'></Image>
+     <Heading mt={'3%'}>We Have Recived An Award For 
+      The Quality Of Our Work</Heading>
+      <Text mt={'3%'}>Donec adipiscing tristique risus nec feugiat in fermentum. Sapien eget mi proin sed libero. Et magnis dis 
+        parturient montes nascetur. Praesent semper 
+        feugiat nibh sed pulvinar proin gravida.</Text>
+       <Text m={'3% 0px'}>Read More </Text>
+      
+       <hr />
+       <Box className='eightEnd'>
+        <Text color={'gray'}><i class="fa-solid fa-user"></i> by FoodZone</Text>
+        <Text color={'gray'}><i class="fa-solid fa-calendar-days"></i> 01.Jan.2023</Text>
+        <Text color={'gray'}><i class="fa-solid fa-eye"></i> 123</Text>
+
+       </Box>
+  </Box>
+
+  <Box className='eightBox32'>
+
+<Box className='eightFlexBox'>
+
+  <Box className='flexBox1'><Image src='https://quickeat-react.vercel.app/assets/img/food-1.jpg'></Image></Box>
+  <Box className='flexBox2'>
+    <Box>
+  <Button>restaurants</Button>
+  <Button>cooking</Button>
+
+    </Box>
+    <Heading>With Quickeat you can order food for the whole day</Heading>
+    <hr />
+       <Box className='eightEnd'>
+        <Text color={'gray'}><i class="fa-solid fa-user"></i> by FoodZone</Text>
+        <Text color={'gray'}><i class="fa-solid fa-calendar-days"></i> 01.Jan.2023</Text>
+        <Text color={'gray'}><i class="fa-solid fa-eye"></i> 123</Text>
+
+       </Box>
+  </Box>
+
+</Box>
+
+  </Box>
+
+
+</Box>
+
+
+
 </Box>
     
 

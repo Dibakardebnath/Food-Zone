@@ -368,24 +368,26 @@
 
 
 .eightBox{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   padding: 50px 60px;
 }
 .eightBox2{
-  border: 1px solid;
+  /* border: 1px solid; */
   width: max-content;
   text-align: left;
 }
 .eightBox3{
-  border: 1px solid green;
+  /* border: 1px solid green; */
   display: grid;
   grid-template-columns: repeat(2,1fr);
-
+ gap: 20px;
 }
 .eightBox31{
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   padding: 20px;
   text-align: left;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  border-radius: 10px;
 }
 .eightEnd{
   /* border: 1px solid ; */
@@ -394,11 +396,31 @@
   width: max-content;
   gap: 10px;
 }
+.eightBox32{
+  /* border: 1px solid greenyellow; */
+  display: grid;
+
+  gap: 10px;
+}
 .eightFlexBox{
   display: flex;
-  border: 1px  solid blue;
+  /* gap: 10px; */
+  /* border: 1px  solid blue; */
 }
 .flexBox1{
-  border: 1px  solid red;
+  /* border: 1px  solid red; */
+  width: max-content;
   width: 40%;
+}
+.flexBox2{
+  /* border: 1px  solid rgb(255, 187, 0); */
+  width: 60%;
+  text-align: left;
+  padding: 20px;
+}
+.btnBox{
+  /* border: 1px solid; */
+  width: max-content;
+  display: flex;
+  gap: 10px;
 }

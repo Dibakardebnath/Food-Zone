@@ -274,10 +274,10 @@ export const Home=()=>{
     <Image borderRadius={'10px'} src='https://quickeat-react.vercel.app/assets/img/photo-8.jpg'></Image>
      <Heading mt={'3%'}>We Have Recived An Award For 
       The Quality Of Our Work</Heading>
-      <Text mt={'3%'}>Donec adipiscing tristique risus nec feugiat in fermentum. Sapien eget mi proin sed libero. Et magnis dis 
+      <Text color={'#8d8d8d'} mt={'3%'}>Donec adipiscing tristique risus nec feugiat in fermentum. Sapien eget mi proin sed libero. Et magnis dis 
         parturient montes nascetur. Praesent semper 
         feugiat nibh sed pulvinar proin gravida.</Text>
-       <Text m={'3% 0px'}>Read More </Text>
+       <Text fontSize={'xl'} m={'3% 0px'} color={'#f29f05'}>Read More  <i class="fa-solid fa-arrow-right"></i></Text>
       
        <hr />
        <Box className='eightEnd'>
@@ -292,14 +292,14 @@ export const Home=()=>{
 
 <Box className='eightFlexBox'>
 
-  <Box className='flexBox1'><Image src='https://quickeat-react.vercel.app/assets/img/food-1.jpg'></Image></Box>
+  <Box className='flexBox1'><Image borderRadius={'10px'} src='https://quickeat-react.vercel.app/assets/img/food-1.jpg'></Image></Box>
   <Box className='flexBox2'>
-    <Box>
-  <Button>restaurants</Button>
-  <Button>cooking</Button>
+    <Box className='btnBox'>
+  <Button size='sm' bg={'#f29f05'} color={'white'}>restaurants</Button>
+  <Button size='sm' bg={'#f29f05'} color={'white'}>cooking</Button>
 
     </Box>
-    <Heading>With Quickeat you can order food for the whole day</Heading>
+    <Heading m={'3% 0%'} size={'md'}>With Quickeat you can order food for the whole day</Heading>
     <hr />
        <Box className='eightEnd'>
         <Text color={'gray'}><i class="fa-solid fa-user"></i> by FoodZone</Text>
@@ -311,6 +311,47 @@ export const Home=()=>{
 
 </Box>
 
+<Box className='eightFlexBox'>
+
+  <Box className='flexBox1'><Image borderRadius={'10px'} src='https://quickeat-react.vercel.app/assets/img/food-1.jpg'></Image></Box>
+  <Box className='flexBox2'>
+    <Box className='btnBox'>
+  <Button size='sm' bg={'#f29f05'} color={'white'}>restaurants</Button>
+  <Button size='sm' bg={'#f29f05'} color={'white'}>cooking</Button>
+
+    </Box>
+    <Heading m={'3% 0%'} size={'md'}>With Quickeat you can order food for the whole day</Heading>
+    <hr />
+       <Box className='eightEnd'>
+        <Text color={'gray'}><i class="fa-solid fa-user"></i> by FoodZone</Text>
+        <Text color={'gray'}><i class="fa-solid fa-calendar-days"></i> 01.Jan.2023</Text>
+        <Text color={'gray'}><i class="fa-solid fa-eye"></i> 123</Text>
+
+       </Box>
+  </Box>
+
+</Box>
+
+<Box className='eightFlexBox'>
+
+  <Box className='flexBox1'><Image borderRadius={'10px'} src='https://quickeat-react.vercel.app/assets/img/food-1.jpg'></Image></Box>
+  <Box className='flexBox2'>
+    <Box className='btnBox'>
+  <Button size='sm' bg={'#f29f05'} color={'white'}>restaurants</Button>
+  <Button size='sm' bg={'#f29f05'} color={'white'}>cooking</Button>
+
+    </Box>
+    <Heading m={'3% 0%'} size={'md'}>With Quickeat you can order food for the whole day</Heading>
+    <hr />
+       <Box className='eightEnd'>
+        <Text color={'gray'}><i class="fa-solid fa-user"></i> by FoodZone</Text>
+        <Text color={'gray'}><i class="fa-solid fa-calendar-days"></i> 01.Jan.2023</Text>
+        <Text color={'gray'}><i class="fa-solid fa-eye"></i> 123</Text>
+
+       </Box>
+  </Box>
+
+</Box>
   </Box>
 
 

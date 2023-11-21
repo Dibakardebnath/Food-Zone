@@ -41,14 +41,11 @@ export const Footer=()=>{
                 </Box>
 
             </Box>
-
             <hr style={{marginTop:"10px"}}/>
-
             <Box>
                 <Text>Copyright © 2023. FoodZone. All rights reserved.</Text>
                 <Text>Privacy Policy     Terms & Services</Text>
             </Box>
-
         </Box>
     )
 }

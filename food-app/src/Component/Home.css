@@ -3,7 +3,7 @@
 
 .firstBox{
     /* border: 1px solid; */
-    width: 100%;
+    /* width: 100%; */
     padding: 0px 50px;
     display: flex;
     background: linear-gradient(135deg,#ffeaea, rgb(255,255,255),#ffeaea, rgb(255,255,255));
@@ -347,15 +347,6 @@
  
   }
 
-  .ImgOverBox{
-    /* border: 1px solid red; */
-    /* width: 100px; */
-      /* width: 00px; */
-      /* position: relative;
-      top: 30px;
-      right: 200px; */
-      /* left: 40px; */
-  }
 .sevenBoxHead{
   /* border: 1px solid green; */
   width: max-content;
@@ -423,4 +414,38 @@
   width: max-content;
   display: flex;
   gap: 10px;
+}
+
+/* ..........................ninthBox............................ */
+
+.ninthBox{
+  /* border: 1px solid; */
+  background-color: #fcfcfc;
+  display: flex;
+  padding: 50px;
+  text-align: left;
+  /* gap: 40px; */
+
+}
+.ninthBox1{
+  /* border: 1px solid; */
+  width: 60%;
+}
+.ninthBox2{
+  /* border: 1px solid; */
+  width: 40%;
+  /* margin: auto; */
+  padding: 0px 50px;
+
+}
+.ninthBox3{
+  /* border: 1px solid; */
+  /* width: max-content; */
+  display: flex;
+  gap: 10px;
+  margin-top: 10%;
+}
+.ninthBox3 Input{
+  width: 60%;
+height: 48px;
 }

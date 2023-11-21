@@ -1,5 +1,5 @@
 
-import { Box, Button, Heading, Image, Select, Text } from '@chakra-ui/react'
+import { Box, Button, Heading, Image, Input, Select, Text } from '@chakra-ui/react'
 import './Home.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -12,7 +12,7 @@ export const Home=()=>{
     Aos.init();
   },[])
 
-    return <Box height={'1000vh'}>
+    return <Box>
 
      <Box className='firstBox'>
      <Box className='heading'>
@@ -352,11 +352,35 @@ export const Home=()=>{
   </Box>
 
 </Box>
+
+
   </Box>
 
 
 </Box>
 
+
+
+</Box>
+
+<Box className='ninthBox'>
+
+  <Box  className='ninthBox1'>
+    <Image src='https://quickeat-react.vercel.app/assets/img/illustration-4.png'></Image>
+  </Box>
+
+  <Box  className='ninthBox2'>
+    <Heading  size={'2xl'}>Get the menu of</Heading>
+    <Heading size={'2xl'}  mt={'2%'}>your favorite</Heading>
+    <Heading size={'2xl'}  mt={'2%'}>restaurants every</Heading>
+    <Heading size={'2xl'}  mt={'2%'}>day</Heading>
+
+    <Box  className='ninthBox3'>
+      
+      <Input type="email" placeholder="Enter email address"></Input>
+      <Button size='lg' color={'white'} colorScheme='yellow'>SUBSCRIBE</Button>
+    </Box>
+  </Box>
 
 
 </Box>

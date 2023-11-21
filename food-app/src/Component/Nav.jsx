@@ -1,7 +1,5 @@
 
 
-// import { FaShoppingCart } from 'react-icons/fa';
-import { DeleteIcon } from '@chakra-ui/icons'
 import { Box, Button, Heading, Icon, Image} from '@chakra-ui/react'
 import { NavLink } from 'react-router-dom'
 import './Nav.css'

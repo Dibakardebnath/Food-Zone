@@ -1,16 +1,16 @@
 .footer{
     border: 1px solid;
-    /* background-color: black; */
+    background-color: #363636;
     padding: 50px;
 }
 
 
 .footer1{
-    border: 1px solid;
+    /* border: 5px solid; */
    display: flex;
 }
 .fooImg{
-    border: 1px solid;
+    /* border: 1px solid; */
     /* width: max-content; */
     display: flex;
     align-items: center;
@@ -20,19 +20,21 @@ margin-bottom: 7%;
 }
 
 .fooFirstBox{
-border: 1px solid red;
-width: 40%;
+/* border: 1px solid red; */
+width: 33%;
 text-align: left;
 }
 .fooSecondBox{
-    border: 1px solid;
-    width: 20%;
+    /* border: 1px solid red; */
+    width: 33%;
     text-align: left;
+    /* margin-left: 20px; */
+     padding: 0px 0px 0px 100px;
 
 }
 .fooThirdBox{
-    border: 1px solid green;
-    width: 40%;
+    /* border: 1px solid red; */
+    width: 33%;
     text-align: left;
 
 

@@ -17,5 +17,7 @@ export const AboutUs=()=>{
 
       </Box>
 
+      <Box className='aboutSecondBox'>Ill continue this box for next day</Box>
+
     </Box>
 }

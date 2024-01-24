@@ -1,0 +1,18 @@
+.aboutFirstBox{
+    /* border: 1px solid; */
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    margin-top: 10%;
+}
+.aboutFirstBox1{
+    /* border: 1px solid red; */
+   text-align: left;
+   
+    /* padding: 100px; */
+}
+.aboutFirstBox2{
+    border: 10px solid whitesmoke;
+    border-radius: 50px;
+    /* overflow: hidden; */
+}

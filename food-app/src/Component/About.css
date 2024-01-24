@@ -16,3 +16,79 @@
     border-radius: 50px;
     /* overflow: hidden; */
 }
+
+.aboutSecondBox{
+    /* border: 1px solid; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 10% auto;
+    /* align-items: center; */
+    width: 90%;
+}
+
+.aboutSecondBox1{
+    /* border: 1px solid; */
+}
+
+.aboutSecondBox2{
+    /* border: 1px solid; */
+    text-align: left;
+    padding: 0px 0px 0px 20%;
+}
+.aboutThirdBox{
+    /* border: 1px solid; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 90%;
+    margin:10% auto;
+    gap: 10px;
+
+}
+.aboutThirdBox1{
+
+text-align: left;
+
+padding: 50px;
+box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+border-radius: 20px;
+}
+.aboutThirdBox1:hover{
+    background-color: #f4aa20;
+    color: white;
+}
+.aboutThirdBox2{
+  /* border: 1px solid; */
+text-align: left;
+/* width: 25%; */
+padding: 50px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+border-radius: 20px;
+    }
+    .aboutThirdBox2:hover{
+        background-color: #f4aa20;
+        color: white;
+    }
+    .aboutThirdBox3{
+       /* border: 1px solid; */
+text-align: left;
+/* width: 25%; */
+padding: 50px;
+box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+border-radius: 20px;
+        }
+        .aboutThirdBox3:hover{
+            background-color: #f4aa20;
+            color: white;
+        }
+        .aboutThirdBox4{
+           /* border: 1px solid; */
+text-align: left;
+/* width: 25%; */
+padding: 50px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+border-radius: 20px;
+            }
+            .aboutThirdBox4:hover{
+                background-color: #f4aa20;
+                color: white;
+            }

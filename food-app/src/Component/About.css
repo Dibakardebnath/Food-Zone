@@ -1,94 +1,125 @@
-.aboutFirstBox{
+.aboutFirstBox {
     /* border: 1px solid; */
     width: 90%;
     margin: auto;
     align-items: center;
     margin-top: 10%;
 }
-.aboutFirstBox1{
+
+.aboutFirstBox1 {
     /* border: 1px solid red; */
-   text-align: left;
-   
+    text-align: left;
+
     /* padding: 100px; */
 }
-.aboutFirstBox2{
+
+.aboutFirstBox2 {
     border: 10px solid whitesmoke;
     border-radius: 50px;
     /* overflow: hidden; */
 }
 
-.aboutSecondBox{
+.aboutSecondBox {
     /* border: 1px solid; */
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     margin: 10% auto;
     /* align-items: center; */
     width: 90%;
 }
 
-.aboutSecondBox1{
+.aboutSecondBox1 {
     /* border: 1px solid; */
 }
 
-.aboutSecondBox2{
+.aboutSecondBox2 {
     /* border: 1px solid; */
     text-align: left;
     padding: 0px 0px 0px 20%;
 }
-.aboutThirdBox{
+
+.aboutThirdBox {
     /* border: 1px solid; */
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     width: 90%;
-    margin:10% auto;
+    margin: 10% auto;
     gap: 10px;
 
 }
-.aboutThirdBox1{
 
-text-align: left;
+.aboutThirdBox1 {
 
-padding: 50px;
-box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-border-radius: 20px;
+    text-align: left;
+
+    padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 20px;
 }
-.aboutThirdBox1:hover{
+
+.aboutThirdBox1:hover {
     background-color: #f4aa20;
     color: white;
 }
-.aboutThirdBox2{
-  /* border: 1px solid; */
-text-align: left;
-/* width: 25%; */
-padding: 50px;
-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-border-radius: 20px;
-    }
-    .aboutThirdBox2:hover{
-        background-color: #f4aa20;
-        color: white;
-    }
-    .aboutThirdBox3{
-       /* border: 1px solid; */
-text-align: left;
-/* width: 25%; */
-padding: 50px;
-box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-border-radius: 20px;
-        }
-        .aboutThirdBox3:hover{
-            background-color: #f4aa20;
-            color: white;
-        }
-        .aboutThirdBox4{
-           /* border: 1px solid; */
-text-align: left;
-/* width: 25%; */
-padding: 50px;
-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-border-radius: 20px;
-            }
-            .aboutThirdBox4:hover{
-                background-color: #f4aa20;
-                color: white;
-            }
+
+.aboutThirdBox2 {
+    /* border: 1px solid; */
+    text-align: left;
+    /* width: 25%; */
+    padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+}
+
+.aboutThirdBox2:hover {
+    background-color: #f4aa20;
+    color: white;
+}
+
+.aboutThirdBox3 {
+    text-align: left;
+    padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 20px;
+}
+
+.aboutThirdBox3:hover {
+    background-color: #f4aa20;
+    color: white;
+}
+
+.aboutThirdBox4 {
+
+    text-align: left;
+
+    padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+}
+
+.aboutThirdBox4:hover {
+    background-color: #f4aa20;
+    color: white;
+   
+}
+
+
+.aboutFourthBox {
+    display: flex;
+    border: 1px solid;
+    width: 90%;
+    margin: auto;
+    gap: 50px;
+}
+
+.aboutFourthBox1{
+    border: 1px solid;
+    text-align: left;
+    width: 50%;
+}
+
+
+.aboutFourthBox2{
+    border: 1px solid;
+   
+}

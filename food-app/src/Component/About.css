@@ -106,20 +106,50 @@
 
 .aboutFourthBox {
     display: flex;
-    border: 1px solid;
+    /* border: 1px solid; */
     width: 90%;
     margin: auto;
     gap: 50px;
 }
 
 .aboutFourthBox1{
-    border: 1px solid;
+    /* border: 1px solid; */
     text-align: left;
     width: 50%;
+    padding: 50px 50px 0px 10px;
 }
 
 
 .aboutFourthBox2{
-    border: 1px solid;
+    /* border: 10px solid; */
+    /* transform: rotate(15deg); */
    
+}
+.aboutFifthBox{
+    /* border: 1px solid; */
+    display: flex;
+    width: 90%;
+    margin: 10% auto;
+}
+.aboutFifthBox1{
+    /* border: 1px solid; */
+    width: 70%;
+}
+.aboutFifthBox2{
+    /* border: 1px solid; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* gap: 0px;
+     */
+     padding: 80px 50px;
+}
+
+.aboutFifthBox22{
+   
+        /* border: 1px solid; */
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        padding: 10%;
+        border-radius: 10px;
+        background-color: #fcfcfc;
+      
 }

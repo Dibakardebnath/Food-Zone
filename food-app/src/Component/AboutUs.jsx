@@ -125,19 +125,19 @@ export const AboutUs = () => {
 
       <Box className="aboutFourthBox">
         <Box className="aboutFourthBox1">
-          <Heading>Wait a minute for</Heading>
-          <Heading mt={'1%'}>delicious</Heading>
-          <Text w={'80%'} border={'1px solid'} mt={'5%'}>
+          <Heading as="h2" size="2xl">Wait a minute for</Heading>
+          <Heading as="h2" size="2xl" mt={'1%'}>delicious</Heading>
+          <Text w={'90%'}  mt={'5%'} size={'md'} color={'#9f7878'}>
             Amet massa vitae tortor condimentum lacinia quis. Elit at imperdiet
             dui accumsan sit amet nulla facilisi. Lacus laoreet non curabitur
             gravida arcu ac tortor dignissim.
           </Text>
 
           <Heading size='md' mt={'4%'}>Interdum varius sit amet mattis</Heading>
-            <Text> <i class="fa-solid fa-circle-check"></i>Interdum varius sit amet mattis;</Text>
-            <Text> <i class="fa-solid fa-circle-check"></i>Sed elementum tempus egestas sed sed;</Text>
-            <Text> <i class="fa-solid fa-circle-check"></i>Sit amet purus gracida quis blandit;</Text>
-            <Text> <i class="fa-solid fa-circle-check"></i>Feugiat pretium nibh ipsum consequat nisl vel pretium</Text>
+            <Text size={'md'} color={'#9f7878'}  mt={'5%'}> <i style={{color:"#f29f05"}} class="fa-solid fa-circle-check"></i> Sed elementum tempus egestas sed sed;</Text>
+            <Text size={'md'} color={'#9f7878'} mt={'2%'}> <i style={{color:"#f29f05"}} class="fa-solid fa-circle-check"></i> Interdum varius sit amet mattis;</Text>
+            <Text size={'md'} color={'#9f7878'} mt={'2%'}> <i style={{color:"#f29f05"}} class="fa-solid fa-circle-check"></i> Sit amet purus gracida quis blandit;</Text>
+            <Text size={'md'} color={'#9f7878'} mt={'2%'}> <i style={{color:"#f29f05"}} class="fa-solid fa-circle-check"></i> Feugiat pretium nibh ipsum consequat nisl vel pretium</Text>
          
         </Box>
 
@@ -145,6 +145,7 @@ export const AboutUs = () => {
           <Image
             src="https://quickeat-react.vercel.app/assets/img/elements-1.jpg"
             alt="Thumbnail"
+            borderRadius={'40px'}
           />
 
           <Box
@@ -153,7 +154,7 @@ export const AboutUs = () => {
             backgroundColor={"#f29f05"}
             position="absolute"
             top="50%"
-            left="20%"
+            left="50%"
             transform="translate(-50%, -50%)"
             cursor="pointer"
           >
@@ -169,7 +170,31 @@ export const AboutUs = () => {
             </a>
           </Box>
         </Box>
+
+      
       </Box>
+
+      <Box className="aboutFifthBox">
+          <Box className="aboutFifthBox1" ><Image  src="https://quickeat-react.vercel.app/assets/img/photo-10.png"></Image></Box>
+         
+          <Box className='aboutFifthBox2'>
+    <Box className='aboutFifthBox21' textAlign={'left'}>
+      <Heading >Service shows good taste.</Heading>
+    </Box>
+    <Box display={'flex'} textAlign={'left'} gap={'8%'} w={'max-content'}  h={'max-content'} className='aboutFifthBox22'>
+      <Heading size={'2xl'} color='#f4b030'>976</Heading>
+      <Text  w={'50%'} className='fifthText'>Satisfied Customer</Text>
+    </Box>
+    <Box display={'flex'} gap={'8%'} textAlign={'left'}  w={'max-content'}  h={'max-content'}  className='aboutFifthBox22'>
+    <Heading size={'2xl'} color='#f4b030'>12</Heading>
+      <Text  w={'60%'} className='fifthText'>Best Restaurants</Text>
+    </Box>
+    <Box display={'flex'} gap={'8%'} textAlign={'left'} w={'max-content'} h={'max-content'}  className='aboutFifthBox22'>
+    <Heading size={'2xl'} color='#f4b030'>1K+</Heading>
+      <Text  w={'50%'} className='fifthText'>Food Delivered</Text>
+    </Box>
+  </Box>
+        </Box>
     </Box>
   );
 };

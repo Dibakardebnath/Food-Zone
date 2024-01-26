@@ -23,10 +23,15 @@ export const Nav=()=>{
      <Box className='pagebar'>
       <li><NavLink to={'/'}>Home</NavLink></li>
       <li><NavLink to={'/about us'}>About Us</NavLink></li>
-      <li><NavLink to={'/contacts'}>Contacts</NavLink></li>
-
+       <li className="dropdown"><NavLink to={'/restaurants'}>Restaurants</NavLink>
+       <div className="dropdown-content">
+          <p>Restaurant</p>
+          <p>Restaurants Card</p>
+          <p>Checkout</p>
+        </div>
+       </li>
        <li><NavLink to={'/pages'}>Pages</NavLink></li>
-       <li><NavLink to={'/restaurants'}>Restaurants</NavLink></li>
+       <li><NavLink to={'/contacts'}>Contacts</NavLink></li>
      </Box>
 
      </Box>

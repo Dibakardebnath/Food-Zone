@@ -1,4 +1,4 @@
-import { Box, Button, Heading, Image, Text, flexbox } from "@chakra-ui/react";
+import { Box, Button, Heading, Image, Input, Text } from "@chakra-ui/react";
 import "./About.css";
 
 export const AboutUs = () => {
@@ -195,6 +195,96 @@ export const AboutUs = () => {
     </Box>
   </Box>
         </Box>
+        <Box className="aboutSixBox">
+          <Heading size={'2xl'}>Our Team</Heading>
+          <Text color={'#a37878'} mt={'5%'}>Enim lobortis scelerisque fermentum dui faucibus. Tempor commodo ullamcorper a lacus vestibulum sed arcu non. 
+            Magna ac placerat vestibulum lectus mauris.</Text>
+        </Box>
+        <Box className="aboutSevenBox">
+          
+          <Box className="aboutSevenBox1">
+            <Image  m={'auto'} w={'80%'} src="https://quickeat-react.vercel.app/assets/img/team-1.png"></Image>
+            <Heading mt={'4%'}>Kevin Adamason</Heading>
+            <Text color={'#be8d78'} w={'70%'}  m={'2% auto'}>Pellentesque adipiscing commodo elit at imperdiet dui.</Text>
+            <Box w={'max-content'} display={'flex'} gap={'30px'} m={'4% auto'} >
+                  <li>
+                    <a href=""><i style={{borderRadius:"50%",border:"1px solid white", color:'#cfcfcf',padding:"10px",backgroundColor:"#363636"}} class="fa-brands fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i style={{borderRadius:"50%",border:"1px solid white", color:'#cfcfcf',padding:"10px",backgroundColor:"#363636"}}  class="fa-brands fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i style={{borderRadius:"50%",border:"1px solid white", color:'#cfcfcf',padding:"10px",backgroundColor:"#363636"}}class="fa-brands fa-linkedin"></i></a>
+                  </li>
+                </Box>
+          </Box>
+          <Box className="aboutSevenBox1">
+            <Image  m={'auto'} w={'80%'} src="https://quickeat-react.vercel.app/assets/img/team-2.png"></Image>
+            <Heading mt={'4%'}>Madam Adam</Heading>
+            <Text color={'#be8d78'} w={'70%'}  m={'2% auto'}>Velit dignissim sodales ut eu sem integer vitae. Interdum varius sit amet mattis.</Text>
+            <Box w={'max-content'} display={'flex'} gap={'30px'} m={'4% auto'} >
+                  <li>
+                    <a href=""><i style={{borderRadius:"50%",border:"1px solid white", color:'#cfcfcf',padding:"10px",backgroundColor:"#363636"}} class="fa-brands fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i style={{borderRadius:"50%",border:"1px solid white", color:'#cfcfcf',padding:"10px",backgroundColor:"#363636"}}  class="fa-brands fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i style={{borderRadius:"50%",border:"1px solid white", color:'#cfcfcf',padding:"10px",backgroundColor:"#363636"}}class="fa-brands fa-linkedin"></i></a>
+                  </li>
+                </Box>
+          </Box>
+          <Box className="aboutSevenBox1">
+            <Image  m={'auto'} w={'80%'} src="https://quickeat-react.vercel.app/assets/img/team-3.png"></Image>
+            <Heading mt={'4%'}>Raju Nama</Heading>
+            <Text color={'#be8d78'} w={'70%'}  m={'2% auto'}>At erat pellentesque adipiscing commodo elit.</Text>
+            <Box w={'max-content'} display={'flex'} gap={'30px'} m={'4% auto'} >
+                  <li>
+                    <a href=""><i style={{borderRadius:"50%",border:"1px solid white", color:'#cfcfcf',padding:"10px",backgroundColor:"#363636"}} class="fa-brands fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i style={{borderRadius:"50%",border:"1px solid white", color:'#cfcfcf',padding:"10px",backgroundColor:"#363636"}}  class="fa-brands fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i style={{borderRadius:"50%",border:"1px solid white", color:'#cfcfcf',padding:"10px",backgroundColor:"#363636"}}class="fa-brands fa-linkedin"></i></a>
+                  </li>
+                </Box>
+          </Box>
+
+        </Box>
+        <Box className="aboutEightBox">
+          <Heading size={'2xl'}>Our Trusted Partners</Heading>
+          <Box className="aboutEightBox1">
+
+           <Box   w={'max-content'} ><Image src="https://quickeat-react.vercel.app/assets/img/logo-1.png"></Image>
+           <Heading size={'md'}>Kings Arms</Heading>
+           </Box> 
+
+           <Box  w={'max-content'} > <Image src="https://quickeat-react.vercel.app/assets/img/logo-2.png"></Image> 
+           <Heading size={'md'}>Wilmington</Heading>
+           </Box> 
+
+           <Box  w={'max-content'} > <Image src="https://quickeat-react.vercel.app/assets/img/logo-3.png"></Image>
+           <Heading size={'md'}>Kennington</Heading>
+           </Box> 
+
+            <Box  w={'max-content'} ><Image src="https://quickeat-react.vercel.app/assets/img/logo-4.png"></Image>
+            <Heading size={'md'}>The Victoria</Heading>
+            </Box> 
+
+           <Box  w={'max-content'}  > <Image src="https://quickeat-react.vercel.app/assets/img/logo-5.png"></Image>
+           <Heading size={'md'}>The Andover Arms</Heading>
+           </Box> 
+            
+          </Box>
+        </Box>
+        <Box className="aboutNineBox" h={'20em'}>
+          <Heading  w={'70%'} m={'auto'} size={'2xl'}>Get the menu of your favorite restaurants every day</Heading>
+         <Box   w={'40%'} display={'flex'} m={'2% auto'}>
+         <Input backgroundColor={'white'}  type="email" placeholder="Enter email address"></Input>
+          <Button  colorScheme="yellow" >SUBSCRIBE</Button>
+          </Box> 
+                  </Box>
     </Box>
   );
 };

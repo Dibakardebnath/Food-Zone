@@ -153,3 +153,32 @@
         background-color: #fcfcfc;
       
 }
+.aboutSixBox{
+    /* border: 1px solid; */
+    width: 35%;
+    margin: auto;
+}
+.aboutSevenBox{
+    /* border: 1px solid; */
+    width: 90%;
+    margin: 5% auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.aboutSevenBox1{
+    /* border: 1px solid; */
+}
+.aboutEightBox1{
+/* border: 1px solid; */
+display: grid;
+grid-template-columns: repeat(5,1fr);
+
+width: 90%;
+margin: 4% auto;
+}
+.aboutNineBox{
+    background-image: url('https://png.pngtree.com/background/20210710/original/pngtree-fruit-cold-drink-fresh-hand-painted-yellow-banner-picture-image_1016247.jpg');
+   padding: 8%;
+
+}

@@ -1,0 +1,25 @@
+.contactFirstBox{
+ border: 1px solid;
+ display: flex;
+ width: 90%;
+ margin: 5% auto;
+}
+.contactFirstBox1{
+    border: 1px solid;
+    text-align: left;
+}
+.childContactBox{
+    /* border: 1px solid; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 70%;
+    gap: 25px;
+    margin-top: 4%;
+}
+.childContactBox1{
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    /* border: 1px solid; */
+
+}

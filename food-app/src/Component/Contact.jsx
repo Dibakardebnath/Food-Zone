@@ -93,5 +93,7 @@ export const Contact=()=>{
 
     </Box>
 
+    <Box>Monday will start again are job and dont wory one day success will get you keep practincing</Box>
+
     </Box>
 }

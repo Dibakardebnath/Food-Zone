@@ -1,9 +1,10 @@
 .aboutFirstBox {
     /* border: 1px solid; */
     width: 90%;
-    margin: auto;
+    margin: 10% auto;
     align-items: center;
-    margin-top: 10%;
+    gap: 5%;
+   
 }
 
 .aboutFirstBox1 {
@@ -17,6 +18,8 @@
     border: 10px solid whitesmoke;
     border-radius: 50px;
     /* overflow: hidden; */
+    width: 40%;
+
 }
 
 .aboutSecondBox {

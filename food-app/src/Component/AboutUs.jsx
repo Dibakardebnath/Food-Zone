@@ -27,8 +27,9 @@ export const AboutUs = () => {
             eiusmod tempor.
           </Text>
         </Box>
-        <Box className="aboutFirstBox2">
+        <Box className="aboutFirstBox2" >
           <Image
+          // border={'1px solid'} w={'80%'}
             borderRadius={"100px"}
             transform="rotate(15deg)"
             src="https://quickeat-react.vercel.app/assets/img/photo-9.jpg"

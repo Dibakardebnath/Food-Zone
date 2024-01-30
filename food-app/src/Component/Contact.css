@@ -25,16 +25,71 @@
 }
 
 .contactSecondBox{
-    border: 1px solid;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
     /* display: flex; */
-    /* display: grid;
-    grid-template-columns: repeat(2,1fr); */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     width: 90%;
     margin: 5% auto;
+    border-radius: 10px;
 }
 .contactSecondBox1{
     text-align: left;
-    border: 1px solid;
-    padding: 50px;
-
+    /* border: 1px solid; */
+    padding: 20px 0px 20px 50px;
+  
 }
+
+.map-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 20px;
+  }
+  
+  .map-container iframe {
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    /* border: none; Remove the border from the iframe */
+  }
+  .contactSecondBox2{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+
+  .contactThirdBox{
+    /* border: 1px solid; */
+    width: 90%;
+    margin: 10% auto;
+    background-color: #fcfcfc;
+    display: flex;
+    /* padding: 50px; */
+    /* text-align: left; */
+    gap: 40px;
+  
+  }
+  .contactThirdBox1{
+    /* border: 1px solid; */
+    width: 50%;
+  }
+  .contactThirdBox2{
+    /* border: 1px solid; */
+    padding: 1% 4%;
+    text-align: left;
+  
+  }
+  .contactThirdBox3{
+    /* border: 1px solid; */
+    /* width: max-content; */
+    display: flex;
+    gap: 10px;
+    margin-top: 20%;
+  }
+  .contactThirdBox3 Input{
+    width: 60%;
+  height: 3em;
+  }

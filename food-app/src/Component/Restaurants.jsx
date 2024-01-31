@@ -7,6 +7,8 @@ export const Restaurants=()=>{
 
       <h1>Restaurenst
         Tommorow come3s your day no wory
+        Today i am updatinng my website
+        
       </h1>
 
     </Box>

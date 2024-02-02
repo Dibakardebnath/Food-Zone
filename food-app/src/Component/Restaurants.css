@@ -1,0 +1,13 @@
+.restFirstBox{
+    border: 1px solid;
+    display: flex;
+    width: 85%;
+    margin: 4% auto;
+}
+
+.restFirstBox1{
+/* border: 1px saddlebrown solid; */
+text-align: left;
+padding: 4% 4%;
+width: 50%;
+}

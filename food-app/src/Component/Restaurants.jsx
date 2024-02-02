@@ -1,5 +1,6 @@
 
-import { Box } from '@chakra-ui/react'
+import { Box, Heading, Image, Select, Text } from '@chakra-ui/react'
+import './Restaurants.css'
 
 
 export const Restaurants=()=>{
@@ -23,11 +24,25 @@ export const Restaurants=()=>{
   );
     return <Box>
 
-      <h1>Restaurenst
-        Tommorow come3s your day no wory
-        Today i am updatinng my website
-
-      </h1>
-
+     <Box className='restFirstBox'>
+      <Box className='restFirstBox1'>
+      <Text color={"gray"} mt={"4%"}>
+            Home{" "}
+            <i style={{ color: "#f29f05" }} class="fa-solid fa-arrow-right"></i>{" "}
+            <span style={{ color: "black", fontWeight: "bold" }}>Restaurants</span>
+          </Text>
+          <Heading mt={'5%'} size={'2xl'}>Restaurants</Heading>
+          <Text mt={'6%'}  w={'90%'} >Egestas sed tempus urna et pharetra pharetra massa.
+             Fermentum posuere urna nec tincidunt praesent semper.</Text>
+             <Select mt={'10%'}  placeholder='Choose a Restaurants' h={'3.5em'} w={'90%'}>
+  <option value='option1'>Restaurants no 1</option>
+  <option value='option2'>Restaurants no 2</option>
+  <option value='option3'>Restaurants no 3</option>
+</Select>
+      </Box>
+      <Box className='restFirstBox2'>
+        <Image w={'90%'} border={'1px solid'} margin={'auto'} src='https://quickeat-react.vercel.app/assets/img/photo-11.png'></Image>
+      </Box>
+     </Box>
     </Box>
 }

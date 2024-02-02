@@ -8,6 +8,8 @@ import './Nav.css'
 export const Nav=()=>{
     return <Box className='navbar' >
 
+      
+
      <Box className='navPart1'>
        
      <Box className='imagebar'>

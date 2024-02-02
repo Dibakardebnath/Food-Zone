@@ -4,6 +4,7 @@
     long:"",
     cartArray:[],
     restrauntArr:[],
+    ExtraAray:[]
  }
 
  export const Reducer=(state=initialState,{type,payload}) =>{

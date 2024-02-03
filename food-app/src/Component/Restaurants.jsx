@@ -38,6 +38,8 @@ export const Restaurants=()=>{
   <option value='option1'>Restaurants no 1</option>
   <option value='option2'>Restaurants no 2</option>
   <option value='option3'>Restaurants no 3</option>
+  <option value='option3'>Restaurants no 3</option>
+  <option value='option3'>Restaurants no 3</option>
 </Select>
       </Box>
       <Box className='restFirstBox2'>

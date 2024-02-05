@@ -45,11 +45,13 @@ export const Restaurants=()=>{
   <option value='option3'>Restaurants no 3</option>
   <option value='option3'>Restaurants no 3</option>
   <option value='option3'>Restaurants no 3</option>
+
 </Select>
       </Box>
       <Box className='restFirstBox2'>
         <Image w={'90%'} border={'1px solid'} margin={'auto'} src='https://quickeat-react.vercel.app/assets/img/photo-11.png'></Image>
       </Box>
+      <h1>Tomorrow ill try my best to give in this project because today i do the dsa</h1>
      </Box>
     </Box>
 }

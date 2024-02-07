@@ -1,5 +1,5 @@
 .restFirstBox{
-    border: 1px solid;
+    /* border: 1px solid; */
     display: flex;
     width: 85%;
     margin: 4% auto;
@@ -10,4 +10,14 @@
 text-align: left;
 padding: 4% 4%;
 width: 50%;
+}
+Select{
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    color: gray;
+}
+.restSecondBox{
+    /* border: 1px solid; */
+    width: 90%;
+    margin: auto;
+    height: 5%;
 }

@@ -1,16 +1,85 @@
-import { Box, Button, Drawer, Heading, Icon, Image } from "@chakra-ui/react";
+import {
+  Box,
+  Button,
+  Drawer,
+  Heading,
+  Input,
+  Image,
+  useDisclosure,
+  DrawerBody,
+  DrawerFooter,
+  DrawerHeader,
+  DrawerOverlay,
+  DrawerContent,
+  DrawerCloseButton,
+} from "@chakra-ui/react";
 import { NavLink } from "react-router-dom";
-import { DrawerPage } from "./DrawerPage";
 import "./Nav.css";
-import { useState } from "react";
+import React from "react";
 
 export const Nav = () => {
-  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
-  const toggleDrawer = () => {
-    setIsDrawerOpen(!isDrawerOpen);
-  };
+  const { isOpen, onOpen, onClose } = useDisclosure();
+  const btnRef = React.useRef();
   return (
     <Box className="navbar">
+      <Drawer
+        isOpen={isOpen}
+        placement="right"
+        onClose={onClose}
+        finalFocusRef={btnRef}
+        size="md"
+      >
+        <DrawerOverlay />
+        <DrawerContent>
+          <DrawerCloseButton />
+          <DrawerHeader>Your Order:</DrawerHeader>
+
+          <DrawerBody>
+            <Box className="drawer-firstBox">
+              <Box className="drawer-firstBox1">
+              <Image borderRadius={'10px'} src="https://quickeat-react.vercel.app/assets/img/logo-s.jpg"></Image>
+           <Heading size={'md'}>Restraunt Name</Heading>
+
+              </Box>
+            
+           <Box className="drawer-Remove">
+              <Heading size={'md'}>remove</Heading>
+              <i class="fa-solid fa-trash"></i>
+            </Box>
+            </Box>
+          
+            <Box className="drawer-SecondBox">
+              <Image src="https://quickeat-react.vercel.app/assets/img/order-1.png"></Image>
+              <Heading size={'md'}  w={'50%'}>Egg, kiwi and sauce chilli</Heading>
+              <Heading color={'orange'}>$39</Heading>
+            </Box>
+            <Box  className="drawer-ThirddBox">
+            <Heading>$39</Heading>
+            <Box className="button_Box">
+              <Button  colorScheme='orange' variant='outline'>-</Button>
+              <Button variant={'ghost'} size={'lg'}>1</Button>
+              <Button  colorScheme='orange' variant='outline'>+</Button>
+            </Box>
+            </Box>
+            <Box  className="drawer-FourthBox">
+            <Heading size={'md'}>sum</Heading>
+            <Box className="drawer-quantity">
+            <Heading size={'md'}>quantity</Heading>
+           
+            </Box>
+            </Box>
+            <hr />
+          </DrawerBody>
+
+          <DrawerFooter>
+            <Button variant="outline" mr={3} onClick={onClose}>
+              Cancel
+            </Button>
+            <Button colorScheme="blue">Save</Button>
+          </DrawerFooter>
+        </DrawerContent>
+      </Drawer>
+
       <Box className="navPart1">
         <Box className="imagebar">
           <Image
@@ -49,16 +118,13 @@ export const Nav = () => {
       </Box>
 
       <Box className="navPart2">
-        <Button onClick={toggleDrawer} className="cart" colorScheme="white">
+        <Button
+          ref={btnRef}
+          onClick={onOpen}
+          className="cart"
+          colorScheme="white"
+        >
           <i style={{ color: "#f29f05" }} class="fa-solid fa-bag-shopping"></i>
-
-          <Drawer
-        isOpen={isDrawerOpen}
-        placement="right"
-        onClose={toggleDrawer}
-      >
-        <DrawerPage />
-      </Drawer>
         </Button>
         <Button bg={"#f29f05"} borderRadius={"10px"} color={"white"}>
           ORDER NOW

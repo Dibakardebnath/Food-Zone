@@ -86,3 +86,66 @@ span{
     display: block;
   }
  
+  /*........................................Drawer................................*/
+
+  .drawer-firstBox{
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  .drawer-firstBox1{
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    
+  }
+  .drawer-Remove{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+
+  .drawer-SecondBox{
+    margin-top: 3%;
+      /* border: 1px solid; */
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+  }
+  .drawer-ThirddBox{
+    margin-top: 3%;
+
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  .button_Box{
+    /* border: 1px solid; */
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .drawer-FourthBox{
+    margin-top: 3%;
+
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .drawer-quantity{
+    /* border: 1px solid; */
+    display: flex;
+    gap: 20px;
+    
+  }
+ 

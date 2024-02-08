@@ -31,10 +31,10 @@ export const Nav = () => {
       >
         <DrawerOverlay />
         <DrawerContent>
-          <DrawerCloseButton />
-          <DrawerHeader>Your Order:</DrawerHeader>
+          <DrawerCloseButton className="custom-close-button" fontSize={"2xl"} fontWeight={"bold"}/>
+          <DrawerHeader fontSize={"2xl"} fontWeight={"bold"}>Your Order:</DrawerHeader>
 
-          <DrawerBody>
+          <DrawerBody border={'1px solid'} >
             <Box className="drawer-firstBox">
               <Box className="drawer-firstBox1">
               <Image borderRadius={'10px'} src="https://quickeat-react.vercel.app/assets/img/logo-s.jpg"></Image>
@@ -63,19 +63,22 @@ export const Nav = () => {
             </Box>
             <Box  className="drawer-FourthBox">
             <Heading size={'md'}>sum</Heading>
-            <Box className="drawer-quantity">
-            <Heading size={'md'}>quantity</Heading>
+    
+            <Heading size={'md'} mr={'6%'}>quantity</Heading>
            
             </Box>
-            </Box>
-            <hr />
+            <hr style={{border:"1px solid", marginTop:"3%"}}/>
           </DrawerBody>
 
-          <DrawerFooter>
-            <Button variant="outline" mr={3} onClick={onClose}>
-              Cancel
-            </Button>
-            <Button colorScheme="blue">Save</Button>
+          <DrawerFooter border={'1px solid'}>
+           <Box>
+            <Heading>Total order:</Heading>
+            <Heading>$45.23</Heading>
+           </Box>
+           <Box>
+            <Heading>To pay:</Heading>
+            <Heading>$45.23</Heading>
+           </Box>
           </DrawerFooter>
         </DrawerContent>
       </Drawer>

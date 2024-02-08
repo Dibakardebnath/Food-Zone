@@ -142,10 +142,17 @@ span{
     justify-content: space-between;
     align-items: center;
   }
-  .drawer-quantity{
-    /* border: 1px solid; */
-    display: flex;
-    gap: 20px;
-    
-  }
- 
+/* 
+ .custom-close-button{
+ font-size: large;
+ } */
+ .custom-close-button{
+  transition: transform 0.3s; /* Add transition for smooth animation */
+  background-color: none;
+}
+
+.custom-close-button:hover {
+  color: orange; /* Set the color to yellow when hovering */
+  background-color: white;
+  transform: rotate(90deg); /* Rotate the button by 180 degrees when hovering */
+}

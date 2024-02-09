@@ -60,7 +60,7 @@ export const Restaurants = () => {
         </Box>
       </Box>
       <Box className="restSecondBox">
-        <Image w={'100%'} src="https://sundaramburdwan.com/wp-content/uploads/2023/10/Food-Facebook-Cover-Banner-18-1.png3_-1.png"></Image>
+        <Image className="restSecondBox-img" src="https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-delicious-pizza-poster-background-image_148086.jpg"></Image>
       </Box>
     </Box>
   );

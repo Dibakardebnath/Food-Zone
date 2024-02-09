@@ -156,3 +156,10 @@ span{
   background-color: white;
   transform: rotate(90deg); /* Rotate the button by 180 degrees when hovering */
 }
+
+.drawer-FifthBox{
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

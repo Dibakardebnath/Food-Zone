@@ -3,11 +3,10 @@ import {
   Button,
   Drawer,
   Heading,
-  Input,
   Image,
   useDisclosure,
   DrawerBody,
-  DrawerFooter,
+  // DrawerFooter,
   DrawerHeader,
   DrawerOverlay,
   DrawerContent,
@@ -34,7 +33,8 @@ export const Nav = () => {
           <DrawerCloseButton className="custom-close-button" fontSize={"2xl"} fontWeight={"bold"}/>
           <DrawerHeader fontSize={"2xl"} fontWeight={"bold"}>Your Order:</DrawerHeader>
 
-          <DrawerBody border={'1px solid'} >
+          <DrawerBody >
+           
             <Box className="drawer-firstBox">
               <Box className="drawer-firstBox1">
               <Image borderRadius={'10px'} src="https://quickeat-react.vercel.app/assets/img/logo-s.jpg"></Image>
@@ -61,25 +61,26 @@ export const Nav = () => {
               <Button  colorScheme='orange' variant='outline'>+</Button>
             </Box>
             </Box>
-            <Box  className="drawer-FourthBox">
-            <Heading size={'md'}>sum</Heading>
+            <Box  className="drawer-FourthBox" >
+            <Heading size={'md'} color={'gray.400'}>sum</Heading>
     
-            <Heading size={'md'} mr={'6%'}>quantity</Heading>
+            <Heading size={'md'} mr={'6%'} color={'gray.400'}>quantity</Heading>
            
             </Box>
-            <hr style={{border:"1px solid", marginTop:"3%"}}/>
+            <hr style={{ marginTop:"3%"}}/>
           </DrawerBody>
+          <DrawerBody>
+          <Box className="drawer-FifthBox">
+            <Heading size={'lg'} color={'gray.400 '}>Total order:</Heading>
+            <Heading size={'lg'}>$45.23</Heading>
+           </Box>
+           <Box className="drawer-FifthBox">
+            <Heading size={'lg'} color={'gray.400 '}>To pay:</Heading>
+            <Heading size={'2xl'} mt={'2%'} color={'orange'}>$45.23</Heading>
+           </Box>
+              
+              </DrawerBody>
 
-          <DrawerFooter border={'1px solid'}>
-           <Box>
-            <Heading>Total order:</Heading>
-            <Heading>$45.23</Heading>
-           </Box>
-           <Box>
-            <Heading>To pay:</Heading>
-            <Heading>$45.23</Heading>
-           </Box>
-          </DrawerFooter>
         </DrawerContent>
       </Drawer>
 

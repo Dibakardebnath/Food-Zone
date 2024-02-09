@@ -16,8 +16,16 @@ Select{
     color: gray;
 }
 .restSecondBox{
-    /* border: 1px solid; */
+    border: 1px solid;
+    display: inline-block; /* Ensures that the box only takes up the space it needs */
+   
     width: 90%;
     margin: auto;
-    height: 5%;
+    height: auto;
+}
+.restSecondBox-img{
+    border: 1px solid;
+    display: block; /* Make the image a block element */
+    width: 100%; /* Ensure the image takes up the full width of its container */
+    height: auto; 
 }

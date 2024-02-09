@@ -21,11 +21,61 @@ Select{
    
     width: 90%;
     margin: auto;
-    height: auto;
+    /* height: auto; */
 }
 .restSecondBox-img{
     border: 1px solid;
     display: block; /* Make the image a block element */
     width: 100%; /* Ensure the image takes up the full width of its container */
     height: auto; 
+}
+
+.image-Box{
+    display: inline-block; 
+    border: 1px solid;
+    width: 20%;
+    
+    position: relative;
+    top: -340px;
+    
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f29f05;
+    color: rgb(248, 247, 244);
+    font-size: 2.5rem; 
+    text-align: left;
+    padding: 7px;
+}
+.image-Heading{
+    border: 1px solid;
+    /* display: inline-block;  */
+      position: relative;
+      width: max-content;
+    top: -340px;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: black;
+    font-size: 4rem; 
+}
+.image-Heading2{
+    border: 1px solid;
+    width: max-content;
+    position: relative;
+  top: -350px;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: #f29f05;
+  font-size: 4rem; 
+}
+
+.image-button{
+    border: 1px solid;
+    position: relative;
+    top: -350px;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+   
 }

@@ -66,6 +66,13 @@ export const Restaurants = () => {
       <Heading className="image-Heading2">pay for one</Heading> 
       <Button className="image-button"> ORDER NOW <i style={{marginLeft:"10px"}} class="fa-solid fa-arrow-right"></i></Button>    
       </Box>
+      <Box className="restSecondBox">
+        <Image className="restSecondBox-img" src="https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-delicious-pizza-poster-background-image_148086.jpg"></Image>
+        <Box className="image-Box"><Heading>Restraunt of the month</Heading></Box>
+      <Heading className="image-Heading">Choose 2 lunches</Heading>
+      <Heading className="image-Heading2">pay for one</Heading> 
+      <Button className="image-button"> ORDER NOW <i style={{marginLeft:"10px"}} class="fa-solid fa-arrow-right"></i></Button>    
+      </Box>
     </Box>
   );
 };

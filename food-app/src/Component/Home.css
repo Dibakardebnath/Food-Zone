@@ -300,7 +300,7 @@
 
   /* ..........................................seventHBox ...............*/
   .seventhBox{
-    /* border: 1px solid; */
+    border: 1px solid red;
     background-color: rgb(54,54,54);
     color: #fcfcfc;
     padding: 20px;

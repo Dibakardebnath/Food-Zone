@@ -29,10 +29,9 @@ Select{
    
 }
 .restSecondBox-img{
-    border: 1px solid;
-    display: block; /* Make the image a block element */
-    width: 100%; /* Ensure the image takes up the full width of its container */
- 
+    border: 10px solid;
+    /* display: block;  */
+    /* width: 100%; */
 }
 /* 
 .image-Box{
@@ -92,12 +91,12 @@ Select{
     border: 1px solid green;
     display: flex;
     align-items: center;
-    gap: 10%;
+    gap: 5%;
     /* justify-content: space-between; */
 }
 .image-SecondBox2{
     /* border: 1px solid black; */
-    width: 60%;
+    width: 70%;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -108,4 +107,9 @@ Select{
     color: white;
     width: 40%;
     padding: 10px;
+}
+.chooseImg-Box{
+    border: 1px solid;
+    text-align: left;
+
 }

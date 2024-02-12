@@ -63,20 +63,25 @@ export const Restaurants = () => {
 
       <Box className="image-SecondBox">
         <Box className="image-SecondBox1">
+
           <Box className="image-HeadingBox">
             <Heading size={'md'}> Restraunt of the month</Heading>
          
           </Box>
-       
         <Box className="image-SecondBox2">
           <Image borderRadius={'5px'} src="https://quickeat-react.vercel.app/assets/img/logo-s.jpg"></Image>
            <Heading size={'md'}>The Wilmington</Heading>
         </Box>
+
         </Box>
       
-      <Heading className="image-Heading">Choose 2 lunches</Heading>
+     <Box className="chooseImg-Box">
+     <Heading className="image-Heading">Choose 2 lunches</Heading>
       <Heading className="image-Heading2">pay for one</Heading> 
       <Button className="image-button"> ORDER NOW <i style={{marginLeft:"10px"}} class="fa-solid fa-arrow-right"></i></Button>
+       
+     </Box>
+       
         </Box>
 
         <Box>

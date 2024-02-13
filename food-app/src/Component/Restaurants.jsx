@@ -1,5 +1,6 @@
 import { Box, Heading, Image, Button, Select, Text } from "@chakra-ui/react";
 import "./Restaurants.css";
+import { useEffect, useState } from "react";
 
 export const Restaurants = () => {
   if ("geolocation" in navigator) {
@@ -20,6 +21,40 @@ export const Restaurants = () => {
       console.error("Error getting location:", error.message);
     }
   );
+
+  // truy    ...........................................
+  // const [state, setState] = useState([]);
+  // const [list, setList] = useState([]);
+
+  // const [filterRestaurant, setFilterRestaurant] = useState(list);
+  // useEffect(() => {
+  //   fetchData();
+  // }, []);
+  // const fetchData = async () => {
+  //   // const data = await fetch('https://www.swiggy.com/dapi/restaurants/list/v5?lat=16.2893144&lng=80.4604643&is-seo-homepage-enabled=true');
+  //   const data = await fetch(
+  //     "https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.7040592&lng=77.10249019999999&collection=83667"
+  //   );
+  //   const json = await data.json();
+  //   console.log(json);
+  //   console.log("yes");
+  //   // console.log("apiData", json?.data.cards[3]);
+
+  //   // console.log("text", json?.data?.cards);
+  //   setList(
+  //     json?.data?.cards[11]?.card?.card?.gridElements?.infoWithStyle?.restaurants
+  //   );
+  //   console.log(setList);
+  //   // setFilterRestaurant(
+  //   //   json?.data?.cards[5]?.card?.card?.gridElements?.infoWithStyle?.restaurants
+  //   // );
+  // };
+
+
+
+
+
+
   return (
     <Box>
       <Box className="restFirstBox">

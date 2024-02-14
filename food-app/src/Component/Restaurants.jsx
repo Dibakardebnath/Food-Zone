@@ -124,7 +124,11 @@ export const Restaurants = () => {
         </Box>
      
       </Box>
-
+      {/* ............... */}
+      <Box>
+        <Image className="restSecondBox-img" src="https://st2.depositphotos.com/3591429/12544/i/450/depositphotos_125445028-stock-photo-women-hanging-and-eating-together.jpg"></Image>
+        </Box>
+        {/* ................. */}
     </Box>
   );
 };

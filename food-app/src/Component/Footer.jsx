@@ -64,5 +64,7 @@ India.
                 <Text color={'#627878'}>Privacy Policy <span style={{marginLeft:"15px",color:"#627878"}}>Terms & Services</span> </Text>
             </Box>
         </Box>
+
+        
     )
 }

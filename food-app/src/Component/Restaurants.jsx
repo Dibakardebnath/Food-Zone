@@ -56,7 +56,7 @@ export const Restaurants = () => {
 
 
   return (
-    <Box>
+    <Box mb={'2%'}>
       <Box className="restFirstBox">
         <Box className="restFirstBox1">
           <Text color={"#7883a3"} mt={"4%"}>
@@ -111,24 +111,17 @@ export const Restaurants = () => {
         </Box>
       
      <Box className="chooseImg-Box">
-     <Heading className="image-Heading">Choose 2 lunches</Heading>
-      <Heading className="image-Heading2">pay for one</Heading> 
-      <Button className="image-button"> ORDER NOW <i style={{marginLeft:"10px"}} class="fa-solid fa-arrow-right"></i></Button>
+     <Heading className="image-Heading" size={'2xl'} mt={'2%'}>Choose 2 lunches</Heading>
+      <Heading className="image-Heading2" size={'2xl'} mt={'2%'}>pay for one</Heading> 
+      <Button className="image-button" mt={'4%'}> ORDER NOW <i style={{marginLeft:"10px"}} class="fa-solid fa-arrow-right"></i></Button>
        
      </Box>
        
         </Box>
 
-        <Box>
-        <Image className="restSecondBox-img" src="https://st2.depositphotos.com/3591429/12544/i/450/depositphotos_125445028-stock-photo-women-hanging-and-eating-together.jpg"></Image>
-        </Box>
      
       </Box>
-      {/* ............... */}
-      <Box>
-        <Image className="restSecondBox-img" src="https://st2.depositphotos.com/3591429/12544/i/450/depositphotos_125445028-stock-photo-women-hanging-and-eating-together.jpg"></Image>
-        </Box>
-        {/* ................. */}
+    
     </Box>
   );
 };
